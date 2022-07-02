@@ -1,0 +1,37 @@
+.NavbarContainer{  
+    margin: 0px 0px 20px;
+    padding: 2% 2%;
+    border: 7px solid #2F3061;
+    border-radius: 0px 0px 25px 25px;
+    background-color: #59a5d8;
+    height: 120px;
+    width: 100%;
+    color: #004643;
+    
+    display: flex;
+ 
+  }
+
+  img{
+      height: 50px;
+      width: 90px;
+
+  }
+
+  .btn{
+      height: 50px;
+      width: 80px; 
+      margin-right: 1px;
+      order: 2;
+  }
+ button{
+      object-fit: fill;
+  }
+
+  .search{
+      align-self: flex-end;
+      flex-grow: 2;
+  }
+ 
+
+
