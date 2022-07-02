@@ -3,19 +3,37 @@
 }
 
 .slider{
-    position: relative;
-    height: 50vh;
+    position: sticky;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .image{
-    width: 330px;
-    height: 220px;
-    border-radius: 15px;
-    padding: 5px;
+    border-radius: 5px;
+    padding: 1px;
+
 }
+.image:hover{
+    box-shadow: 0 0 2px 1px #004643;
+}
+.justImage{
+    background-color: #004643;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: fill;
+    height: 300px;
+    width: 350px;
+}
+.imageP{
+    font-size: small;
+    font-weight: bolder;
+    z-index: 10;
+    color: #004643;
+}
+
 
 .right-arrow{
     position: absolute;
@@ -47,8 +65,4 @@
     transform: scale(1.08);
 }
 
-p{
-z-index: 10;
-color: crimson;
-}
 

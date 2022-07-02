@@ -38,8 +38,8 @@ const OpeningPicsSlider = ({ slides, description}) => {
                 <div className={index===current ? 'slide active' : 'slide'} key={index}>
                     {index === current && 
                     
-                    ( <div className="image"><img src={image} alt="One of our fantastic venues" />
-                    <p>{description}</p> </div>
+                    ( <div className="image"><div className="justImage"><img src={image} alt="One of our fantastic venues" /></div>
+                    <p className="imageP">{description}</p> </div>
                 )}
                     </div>
                 
